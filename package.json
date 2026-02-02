@@ -1,0 +1,25 @@
+{
+  "name": "qfc-docs",
+  "version": "1.0.0",
+  "description": "QFC Blockchain Developer Documentation",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lai3d/qfc-docs"
+  },
+  "keywords": [
+    "qfc",
+    "blockchain",
+    "documentation"
+  ],
+  "license": "MIT"
+}
