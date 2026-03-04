@@ -22,7 +22,7 @@ export default defineConfig({
         items: [
           { text: 'Explorer', link: 'https://explorer.testnet.qfc.network' },
           { text: 'Faucet', link: 'https://faucet.testnet.qfc.network' },
-          { text: 'GitHub', link: 'https://github.com/lai3d' },
+          { text: 'GitHub', link: 'https://github.com/qfc-network' },
         ]
       }
     ],
@@ -115,7 +115,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lai3d' },
+      { icon: 'github', link: 'https://github.com/qfc-network' },
       { icon: 'twitter', link: 'https://twitter.com/qfc_network' },
       { icon: 'discord', link: 'https://discord.gg/qfc' },
     ],
@@ -130,7 +130,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/lai3d/qfc-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/qfc-network/qfc-docs/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 

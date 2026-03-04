@@ -336,6 +336,6 @@ Visit `http://localhost:5173` and test your DApp!
 
 ## Resources
 
-- [Full source code](https://github.com/lai3d/qfc-tip-jar-example)
+- [Full source code](https://github.com/qfc-network/qfc-tip-jar-example)
 - [JavaScript SDK](/sdk/javascript/overview)
 - [Smart Contracts](/smart-contracts/deployment)

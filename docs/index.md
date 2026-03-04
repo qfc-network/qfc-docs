@@ -14,7 +14,7 @@ hero:
       link: /getting-started/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/lai3d
+      link: https://github.com/qfc-network
 
 features:
   - icon: ⚡
@@ -54,7 +54,7 @@ features:
 ### Resources
 - [Testnet Explorer](https://explorer.testnet.qfc.network)
 - [Testnet Faucet](https://faucet.testnet.qfc.network)
-- [GitHub](https://github.com/lai3d)
+- [GitHub](https://github.com/qfc-network)
 
 </div>
 
@@ -71,4 +71,4 @@ Join our community to get help, share ideas, and stay updated:
 
 - [Discord](https://discord.gg/qfc) - Chat with the community
 - [Twitter](https://twitter.com/qfc_network) - Latest updates
-- [GitHub](https://github.com/lai3d) - Contribute to the codebase
+- [GitHub](https://github.com/qfc-network) - Contribute to the codebase
