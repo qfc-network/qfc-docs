@@ -6,13 +6,14 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#646cff' }],
+    ['meta', { name: 'theme-color', content: '#4fc3f7' }],
   ],
 
   themeConfig: {
     logo: '/logo.svg',
 
     nav: [
+      { text: 'Home', link: 'https://qfc.network' },
       { text: 'Guide', link: '/getting-started/introduction' },
       { text: 'SDK', link: '/sdk/javascript/overview' },
       { text: 'API', link: '/api-reference/json-rpc' },
@@ -122,7 +123,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 QFC Network'
+      copyright: 'Copyright © 2024-2026 QFC Network'
     },
 
     search: {
