@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/qfc-docs/',
   title: 'QFC Blockchain',
   description: 'Developer Documentation for QFC Blockchain',
 
