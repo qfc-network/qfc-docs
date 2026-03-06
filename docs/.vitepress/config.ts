@@ -45,6 +45,7 @@ export default defineConfig({
           items: [
             { text: 'Blockchain Basics', link: '/core-concepts/blockchain-basics' },
             { text: 'PoC Consensus', link: '/core-concepts/poc-consensus' },
+            { text: 'AI Inference', link: '/core-concepts/ai-inference' },
             { text: 'Accounts & Keys', link: '/core-concepts/accounts-and-keys' },
             { text: 'Transactions', link: '/core-concepts/transactions' },
             { text: 'Gas & Fees', link: '/core-concepts/gas-and-fees' },
