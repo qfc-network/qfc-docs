@@ -2,6 +2,10 @@
 
 QFC v2.0 introduces **Proof of Contribution (PoC)** compute mode, where validators can contribute AI inference workloads instead of (or in addition to) traditional PoW hashing. Miners run approved ML models locally and submit inference proofs to earn contribution scores.
 
+::: tip Want to start mining?
+See the [Inference Miner Guide](/guides/inference-miner) for step-by-step setup instructions — works on Intel Mac, Apple Silicon, and Linux.
+:::
+
 ## Compute Modes
 
 Each validator operates in one of three modes:

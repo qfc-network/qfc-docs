@@ -296,6 +296,117 @@ Response:
 }
 ```
 
+## v2.0 Methods
+
+### qfc_getBridgeStatus
+
+Returns cross-chain bridge status (Ethereum ↔ QFC).
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"qfc_getBridgeStatus","params":[],"id":1}'
+```
+
+Response:
+```json
+{
+  "result": {
+    "active": true,
+    "validatorCount": 7,
+    "threshold": 5,
+    "totalDeposits": 42,
+    "totalWithdrawals": 15,
+    "pendingDeposits": 2,
+    "pendingWithdrawals": 1,
+    "totalValueLocked": "1500000000000000000000"
+  }
+}
+```
+
+### qfc_getAccountRentInfo
+
+Returns storage rent information for an account.
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"qfc_getAccountRentInfo","params":["0x..."],"id":1}'
+```
+
+Response:
+```json
+{
+  "result": {
+    "address": "0x...",
+    "storageDeposit": "10000000000000000",
+    "storageSlotCount": 5,
+    "lastActiveEpoch": 1234,
+    "isDormant": false,
+    "rentOwed": "500000000000",
+    "currentEpoch": 5678,
+    "reactivationFee": "100000000000000000"
+  }
+}
+```
+
+### qfc_sendUserOperation
+
+Submit a UserOperation (EIP-4337 account abstraction).
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc":"2.0",
+    "method":"qfc_sendUserOperation",
+    "params":[{
+      "sender": "0x...",
+      "nonce": "0x0",
+      "initCode": "0x",
+      "callData": "0x...",
+      "callGasLimit": "0x186a0",
+      "verificationGasLimit": "0xc350",
+      "preVerificationGas": "0x5208",
+      "maxFeePerGas": "0x3b9aca00",
+      "maxPriorityFeePerGas": "0x5f5e100",
+      "paymasterAndData": "0x",
+      "signature": "0x..."
+    }],
+    "id":1
+  }'
+```
+
+### qfc_supportedEntryPoints
+
+Returns the EntryPoint addresses supported by this node.
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"qfc_supportedEntryPoints","params":[],"id":1}'
+```
+
+### qfc_getParameterProposals
+
+Returns active protocol parameter governance proposals.
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"qfc_getParameterProposals","params":[],"id":1}'
+```
+
+### qfc_getTreasuryInfo
+
+Returns treasury balance and stats.
+
+```bash
+curl -X POST https://rpc.testnet.qfc.network \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"qfc_getTreasuryInfo","params":[],"id":1}'
+```
+
 ## Using with SDK
 
 All these methods are available through the SDK:

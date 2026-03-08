@@ -17,6 +17,7 @@ export default defineConfig({
       { text: 'Guide', link: '/getting-started/introduction' },
       { text: 'SDK', link: '/sdk/javascript/overview' },
       { text: 'API', link: '/api-reference/json-rpc' },
+      { text: 'Guides', link: '/guides/inference-miner' },
       { text: 'Tutorials', link: '/tutorials/build-dapp' },
       {
         text: 'Resources',
@@ -100,6 +101,14 @@ export default defineConfig({
             { text: 'Setup Guide', link: '/validators/setup-guide' },
             { text: 'Staking', link: '/validators/staking' },
             { text: 'Monitoring', link: '/validators/monitoring' },
+          ]
+        }
+      ],
+      '/guides/': [
+        {
+          text: 'Guides',
+          items: [
+            { text: 'Inference Miner', link: '/guides/inference-miner' },
           ]
         }
       ],
