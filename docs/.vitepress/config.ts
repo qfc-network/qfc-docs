@@ -78,6 +78,7 @@ export default defineConfig({
             { text: 'JSON-RPC', link: '/api-reference/json-rpc' },
             { text: 'WebSocket', link: '/api-reference/websocket' },
             { text: 'QFC Methods', link: '/api-reference/qfc-methods' },
+            { text: 'AI Inference', link: '/api-reference/inference' },
           ]
         }
       ],
@@ -111,6 +112,7 @@ export default defineConfig({
             { text: 'Create a Token', link: '/tutorials/create-token' },
             { text: 'Integrate Wallet', link: '/tutorials/integrate-wallet' },
             { text: 'Deploy NFT', link: '/tutorials/deploy-nft' },
+            { text: 'Submit Inference Task', link: '/tutorials/submit-inference-task' },
           ]
         }
       ],
