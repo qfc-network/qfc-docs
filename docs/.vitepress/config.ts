@@ -50,6 +50,7 @@ export default defineConfig({
             { text: 'Transactions', link: '/core-concepts/transactions' },
             { text: 'Gas & Fees', link: '/core-concepts/gas-and-fees' },
             { text: 'Cross-Chain Bridge', link: '/core-concepts/bridge' },
+            { text: 'AI Agent Wallets', link: '/core-concepts/agent-wallet' },
           ]
         }
       ],
@@ -69,6 +70,9 @@ export default defineConfig({
           text: 'Python SDK',
           items: [
             { text: 'Overview', link: '/sdk/python/overview' },
+            { text: 'Wallet', link: '/sdk/python/wallet' },
+            { text: 'AI Inference', link: '/sdk/python/inference' },
+            { text: 'Contracts', link: '/sdk/python/contracts' },
           ]
         }
       ],
@@ -116,6 +120,7 @@ export default defineConfig({
             { text: 'Deploy NFT', link: '/tutorials/deploy-nft' },
             { text: 'Submit Inference Task', link: '/tutorials/submit-inference-task' },
             { text: 'Bridge Assets', link: '/tutorials/bridge-assets' },
+            { text: 'Register AI Agent', link: '/tutorials/register-agent' },
           ]
         }
       ],
