@@ -49,6 +49,7 @@ export default defineConfig({
             { text: 'Accounts & Keys', link: '/core-concepts/accounts-and-keys' },
             { text: 'Transactions', link: '/core-concepts/transactions' },
             { text: 'Gas & Fees', link: '/core-concepts/gas-and-fees' },
+            { text: 'Cross-Chain Bridge', link: '/core-concepts/bridge' },
           ]
         }
       ],
@@ -79,6 +80,7 @@ export default defineConfig({
             { text: 'WebSocket', link: '/api-reference/websocket' },
             { text: 'QFC Methods', link: '/api-reference/qfc-methods' },
             { text: 'AI Inference', link: '/api-reference/inference' },
+            { text: 'Bridge', link: '/api-reference/bridge' },
           ]
         }
       ],
@@ -113,6 +115,7 @@ export default defineConfig({
             { text: 'Integrate Wallet', link: '/tutorials/integrate-wallet' },
             { text: 'Deploy NFT', link: '/tutorials/deploy-nft' },
             { text: 'Submit Inference Task', link: '/tutorials/submit-inference-task' },
+            { text: 'Bridge Assets', link: '/tutorials/bridge-assets' },
           ]
         }
       ],
