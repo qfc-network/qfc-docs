@@ -45,6 +45,8 @@ features:
 - [JavaScript SDK](/sdk/javascript/overview) - Build dApps with TypeScript
 - [Smart Contracts](/smart-contracts/solidity-guide) - Deploy Solidity contracts
 - [API Reference](/api-reference/json-rpc) - JSON-RPC documentation
+- [AI Inference API](/api-reference/inference) - Submit inference tasks
+- [Bridge API](/api-reference/bridge) - Cross-chain bridge methods
 
 ### For Validators
 - [Requirements](/validators/requirements) - Hardware and staking requirements
